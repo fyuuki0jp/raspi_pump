@@ -1,0 +1,1 @@
+cmd_/var/work/Base/node_modules/sqlite3/lib/binding/node-v57-linux-arm/node_sqlite3.node := rm -rf "/var/work/Base/node_modules/sqlite3/lib/binding/node-v57-linux-arm/node_sqlite3.node" && cp -af "Release/node_sqlite3.node" "/var/work/Base/node_modules/sqlite3/lib/binding/node-v57-linux-arm/node_sqlite3.node"

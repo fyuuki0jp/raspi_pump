@@ -1,0 +1,52 @@
+{
+  "_from": "rtsp-h264",
+  "_id": "rtsp-h264@1.0.3",
+  "_inBundle": false,
+  "_integrity": "sha512-r2TqB+IInlSZYXUqOj2EgJf2nvwgBNgFgJ33sHiR3wU3mMMZXIq24x1p266To/I2yztZ+SSQabFuSWzDJoCA8w==",
+  "_location": "/rtsp-h264",
+  "_phantomChildren": {
+    "asap": "2.0.6",
+    "ms": "2.0.0"
+  },
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "rtsp-h264",
+    "name": "rtsp-h264",
+    "escapedName": "rtsp-h264",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/rtsp-h264/-/rtsp-h264-1.0.3.tgz",
+  "_shasum": "1d75417afd94103a4f7d8e90b55f9b275038f50e",
+  "_spec": "rtsp-h264",
+  "_where": "/var/work/Base",
+  "author": {
+    "name": "ken lau"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "async": "^2.6.0",
+    "debug": "^3.1.0",
+    "promise": "^8.0.1",
+    "sdp-transform": "^2.3.0"
+  },
+  "deprecated": false,
+  "description": "this is a simple server for parse rtsp protocol and get raw h264",
+  "keywords": [
+    "rtsp",
+    "h264"
+  ],
+  "license": "ISC",
+  "main": "index.js",
+  "name": "rtsp-h264",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.3"
+}

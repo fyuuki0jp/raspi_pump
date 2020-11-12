@@ -1,0 +1,42 @@
+{
+  "name": "base",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www.js",
+    "buildjsx": "gulp browserify",
+    "buildgyp": "node-gyp build"
+  },
+  "dependencies": {
+    "body-parser": "~1.18.2",
+    "buffer-split": "^1.0.0",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "ejs": "~2.5.7",
+    "express": "~4.15.5",
+    "material-ui": "^0.20.0",
+    "morgan": "~1.9.0",
+    "react-redux": "^5.0.6",
+    "react-tap-event-plugin": "^3.0.2",
+    "rtp-rtcp": "0.0.2",
+    "rtsp-h264": "^1.0.3",
+    "serve-favicon": "~2.4.5",
+    "socket.io": "^2.0.4",
+    "sqlite3": "^3.1.13",
+    "stream-split": "^1.1.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "browserify": "^15.2.0",
+    "gulp": "^3.9.1",
+    "node-gyp": "^3.6.2",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "reactify": "^1.1.1",
+    "vinyl-source-stream": "^2.0.0",
+    "webpack": "^3.10.0"
+  }
+}
